@@ -1,0 +1,35 @@
+.App {
+  max-width: 1620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.App__pp {
+  height:200px;
+  background-image: url(https://a-static.besthdwallpaper.com/rick-es-morty-isten-dimenzioja-tapeta-1280x1024-57412_32.jpg);
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.App__form {
+  text-align: center;
+}
+
+h1 {
+  
+  font-size: 45px;
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* locationInfo.jsx */
+
+.infoLocation {
+  padding: 20px;
+  text-align: center;
+}

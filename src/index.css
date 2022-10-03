@@ -1,0 +1,45 @@
+/* reset general */
+:root {
+  --background-cards: rgba(13, 13, 14, 0.668);
+  --background-body: pink ;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: rgba(201, 136, 16, 0.911);
+  background-image: linear-gradient(135deg, rgba(84, 76, 116, 0.775), rgb(18, 20, 55), rgb(34, 57, 44), rgb(16, 55, 39), rgb(57, 15, 67),rgb(29, 69, 74),rgb(19, 5, 49) );
+  background-size: 500%;
+  animation: fanimado 10s infinite;
+  -webkit-animation: fanimado 8s infinite;
+}
+@keyframes fanimado {
+  0%{
+      background-position: 0% 50%;
+  }
+  50%{
+      background-position: 100% 30%;
+  }
+  100%{
+      background-position: 0% 50%;
+  }
+}
+
+h1, h2, h3, h4, p, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+img {
+  display: block;
+}
+button {
+  border: none;
+}
+input {
+  outline: none;
+}
